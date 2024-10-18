@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# data
+
+data/CWAM/
+data/FUSER/
+data/METAR/
+data/TAF/
