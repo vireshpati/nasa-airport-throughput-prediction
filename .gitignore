@@ -10,8 +10,14 @@ env/
 .vscode/
 
 # data
-
 data/CWAM/
 data/FUSER/
 data/METAR/
 data/TAF/
+
+# predictions, unit tests, and pre-trained weights
+submissions/
+models/
+tests/
+notebooks/
+
