@@ -48,6 +48,6 @@ def load_scheduled_arrivals(airport, date, mode='train'):
     df.sort_values(by=['arrival_runway_sta'], inplace=True)
     deduped_df = df.drop_duplicates(subset=['gufi'], keep='last').reset_index(drop=True)
 
-    logger.info(f"Total scheduled arrivals on at {airport} on {date}: {len(deduped_df)}")
+    logger.info(f"Total scheduled arrivals at {airport} on {date}: {len(deduped_df)}")
 
     return deduped_df[['gufi', 'arrival_runway_sta']]
